@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>Chat App</title>
+    </head>
+    <body>
+        <h1>User 1</h1>
+        <div><input id=input1 placeholder=message /></div>
+        <button onClick="send(1)">send</button>
+
+        <h1>User 2</h1>
+        <div><input id=input2 placeholder=message /></div>
+        <button onClick="send(2)">send</button>
+
+        <h1>Output</h1>
+        <div id=output></div>        
+
+        <!-- app scripts -->
+        <script src=https://cdn.pubnub.com/sdk/javascript/pubnub.4.0.11.min.js></script>
+        <script src="app.js"></script>
+    </body>
+</html>
